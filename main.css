@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  padding: 10px;
+}
+.quiz-app {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 20px;
+}
+.quiz-app h1 {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(190, 186, 186);
+  padding-bottom: 10px;
+}
+.quiz-app h4 {
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.quiz-box {
+  list-style: none;
+}
+.quiz-box li {
+  text-decoration: none;
+  border: 1px solid rgb(190, 186, 186);
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s;
+}
+.quiz-box li:hover {
+  background-color: #222;
+  color: #fff;
+}
+.quiz-box .correct:hover {
+  background-color: rgb(114, 209, 114);
+  color: black;
+}
+.quiz-box .wrong:hover {
+  background-color: rgb(219, 152, 152);
+  color: black;
+}
+.quiz-app .btn-box {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.quiz-app .btn-box .next {
+  padding: 8px 20px;
+  border: none;
+  background-color: #1a53c5;
+  color: white;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.quiz-app .btn-box-again {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  display: none;
+}
+.quiz-app .btn-box-again .again {
+  padding: 8px 20px;
+  border: none;
+  background-color: #1a53c5;
+  color: white;
+  cursor: pointer;
+}
+.correct {
+  background-color: rgb(114, 209, 114);
+}
+.wrong {
+  background-color: rgb(219, 152, 152);
+}
+.center {
+  text-align: center;
+}
